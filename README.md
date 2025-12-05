@@ -1,8 +1,8 @@
 # Домашнє завдання 6: Графи та алгоритми
 
-## Що таке граф?
+## Граф
 
-Граф - це набір точок (світи) з'єднаних лініями (маршрути). У цьому завданні - це варп-маршрути між світами Warhammer 40000.
+Граф Warhammer 40000 - це набір точок (світи) з'єднаних лініями (маршрути). У цьому завданні - це варп-маршрути між світами Warhammer 40000.
 
 ---
 
@@ -27,8 +27,6 @@ Armageddon: 2 маршрутів
 Valhalla: 2 маршрутів
 ```
 
-Запуск: `python task_1.py`
-
 ---
 
 ## Task 2 - DFS та BFS
@@ -46,8 +44,6 @@ DFS: Terra -> Mars -> Armageddon -> Valhalla (4 світів)
 BFS: Terra -> Mars -> Armageddon -> Valhalla (4 світів)
 ```
 
-Запуск: `python task_2.py`
-
 ---
 
 ## Task 3 - Алгоритм Дейкстри
@@ -63,24 +59,3 @@ BFS: Terra -> Mars -> Armageddon -> Valhalla (4 світів)
 Сумарна небезпека: 6
 ```
 
-Запуск: `python task_3.py`
-
----
-
-## Усі команди
-
-```bash
-pip install -r requirements.txt
-
-python task_1.py
-python task_2.py
-python task_3.py
-```
-
-## Git
-
-```bash
-git add .
-git commit -m "Task 1-3 done"
-git push
-```
